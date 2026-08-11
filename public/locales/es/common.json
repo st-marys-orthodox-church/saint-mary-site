@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "calendar": "Calendario",
+    "donate": "Donar",
+    "gallery": "Galería",
+    "contactUs": "Contáctanos",
+    "contact": "Contacto",
+    "contactForm": "Formulario de contacto",
+    "navigation": "Navegación",
+    "homeAriaLabel": "Saint Mary Romanian Orthodox Church — Inicio",
+    "language": "Idioma",
+    "languageNames": {
+      "en": "English",
+      "es": "Español",
+      "ro": "Română"
+    }
+  },
+  "whatsapp": {
+    "chat": "Chatea por WhatsApp",
+    "default": "Chatea por WhatsApp"
+  },
+  "footer": {
+    "connect": "Conecta con nosotros",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Mapa que muestra Fellowship Event Hall en 2875 Winder Hwy, Dacula, GA 30019",
+    "visitTitle": "Visítenos",
+    "contactTitle": "Contacto",
+    "hoursTitle": "Horario",
+    "hours": "Todos los días, 8:00 – 18:00 EST",
+    "getDirections": "Cómo llegar"
+  },
+  "logo": {
+    "alt": "Saint Mary Romanian Orthodox Church"
+  },
+  "calendar": {
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "clickHint": "Haz clic en cualquier fecha disponible para empezar",
+    "available": "Disponible",
+    "booked": "Reservado",
+    "past": "Pasado",
+    "errorTitle": "Calendario temporalmente no disponible",
+    "errorBody": "Por favor, llámanos o envía el formulario de contacto para consultar la disponibilidad.",
+    "selectDateAria": "{{month}} {{day}}, {{year}}, disponible — selecciona la fecha para consultar",
+    "dayStatusAria": "{{month}} {{day}}, {{year}}, {{status}}"
+  }
+}

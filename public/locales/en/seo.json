@@ -1,0 +1,60 @@
+{
+  "siteName": "Fellowship Event Hall",
+  "siteTitle": "Fellowship Event Hall",
+  "siteDescription": "Elegant 5,000 sq ft event venue in Dacula, GA. Host weddings, quinceañeras, receptions, and banquets for up to 250 guests. Packages from $2,000.",
+  "ogImageAlt": "Fellowship Event Hall in Dacula, GA — elegant reception setup with chandeliers, white linens, and floral centerpieces",
+  "home": {
+    "title": "Fellowship Event Hall | Wedding, Quinceañera & Banquet Venue",
+    "description": "Elegant 5,000 sq ft event venue in Dacula, GA. Host weddings, quinceañeras, receptions, and banquets for up to 250 guests. Packages from $2,000."
+  },
+  "packages": {
+    "title": "Wedding & Event Packages — Fellowship Event Hall, Dacula GA",
+    "description": "View our event hall packages and pricing — weddings, quinceañeras, and banquets. Includes tables, chairs, linens, and more. Starting at $2,000 for 50 guests."
+  },
+  "gallery": {
+    "title": "Photo Gallery — Wedding & Quinceañera Venue in Dacula GA",
+    "description": "Browse our event hall gallery. View photos of weddings, quinceañeras, and celebrations held at St. Mary's Orthodox Church event hall in Dacula, GA."
+  },
+  "structuredData": {
+    "areaServed": [
+      "Dacula, GA",
+      "Lawrenceville, GA",
+      "Buford, GA",
+      "Hoschton, GA",
+      "Duluth, GA",
+      "Suwanee, GA",
+      "Gwinnett County, GA",
+      "North Atlanta metropolitan area"
+    ],
+    "amenities": {
+      "parking": "On-site parking",
+      "wifi": "Wi-Fi",
+      "sound": "Sound system",
+      "bridal": "Bridal suite",
+      "kitchen": "Prep kitchen",
+      "furniture": "Tables & chairs",
+      "accessibility": "Wheelchair accessible"
+    },
+    "packageDescription": "Event package accommodating up to {{capacity}} at Fellowship Event Hall.",
+    "offerCatalogName": "Fellowship Event Hall — Event Packages",
+    "packageSuffix": "Package",
+    "services": {
+      "wedding": {
+        "name": "Wedding venue rental",
+        "description": "Wedding ceremony and reception venue rental at Fellowship Event Hall in Dacula, GA — seats up to 250 guests with bridal suite, sound and lighting, and on-site coordinator."
+      },
+      "quinceanera": {
+        "name": "Quinceañera venue rental",
+        "description": "Quinceañera celebration venue rental at Fellowship Event Hall in Dacula, GA — full hall access with tables, linens, sound system, and dance floor for up to 250 guests."
+      },
+      "corporate": {
+        "name": "Corporate event venue rental",
+        "description": "Corporate event and team gathering venue rental at Fellowship Event Hall in Dacula, GA — flexible hours, on-site parking, prep kitchen, and Wi-Fi."
+      },
+      "birthday": {
+        "name": "Birthday and private party venue rental",
+        "description": "Birthday party and private celebration venue rental at Fellowship Event Hall in Dacula, GA — intimate to large gatherings with included tables, chairs, linens, and on-site coordinator."
+      }
+    }
+  }
+}

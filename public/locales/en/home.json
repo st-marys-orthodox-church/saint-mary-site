@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "logoAltMinimal": "Saint Mary Romanian Orthodox Church — Dacula, Georgia",
+    "logoAltEvents": "Saint Mary Romanian Orthodox Church — parish life and services in Dacula, Georgia",
+    "srOnly": "Saint Mary Romanian Orthodox Church — Dacula, GA",
+    "tagline": "A welcoming Romanian Orthodox parish serving the Atlanta area",
+    "location": "2875 Winder Hwy, Dacula, GA",
+    "viewCalendar": "View Calendar",
+    "donate": "Donate",
+    "scroll": "Explore",
+    "slides": {
+      "exterior": "Exterior of Saint Mary Romanian Orthodox Church in Dacula, GA",
+      "nave": "Interior view of the church nave and iconostasis",
+      "festival": "Community festival and cultural events at the parish",
+      "gathering": "Fellowship and community meals hosted by the church"
+    }
+  },
+  "homepageHub": {
+    "schedule": {
+      "titlePrefix": "Liturgical",
+      "titleAccent": "Schedule",
+      "todayLabel": "Today",
+      "todayEmpty": "No events today.",
+      "calendarUnavailable": "The calendar is not configured yet.",
+      "noUpcoming": "There are no upcoming liturgical events yet.",
+      "allDay": "All day",
+      "sourceLabels": {
+        "programLiturgic": "Liturgical Schedule",
+        "saintMaryEvents": "Saint Mary Events",
+        "calendarulOrthodox": "Orthodox Calendar"
+      },
+      "viewAll": "View More Events",
+      "todayEvents": [],
+      "upcomingDays": []
+    },
+    "news": {
+      "titlePrefix": "News and",
+      "titleAccent": "Parish Events",
+      "readMore": "Read More",
+      "fallbackImage": "Image available on Facebook",
+      "repostLabel": "Repost",
+      "items": [
+        {
+          "date": "March 23, 2026",
+          "title": "Spiritual Conference",
+          "excerpt": "Fr. Ieremia Staretul will offer a talk on repentance, prayer, and life in Christ for parishioners and guests from the wider Atlanta community."
+        },
+        {
+          "date": "March 28, 2026",
+          "title": "Community Celebration",
+          "excerpt": "Join us after services for a parish meal, fellowship, and a joyful afternoon with music, conversation, and family activities."
+        }
+      ]
+    }
+  },
+  "story": {
+    "eyebrow": "The Venue",
+    "ourStory": {
+      "title": "Our Story",
+      "paragraphs": [
+        "Fellowship Event Hall is the rental venue at St. Mary Romanian Orthodox Church in Dacula, Georgia, serving Gwinnett County and the greater Atlanta metro area. The hall is a brand-new facility built by the parish that serves the American-Romanian community in the area.",
+        "The property is an expression of our identity, a fingerprint of our presence in the area and our contribution to Gwinnett's multi-cultural society. It is also an expression of our community at its best, through the sacrifice and dedication of a small but very active group of members."
+      ],
+      "imageAlt": "Interior of Fellowship Event Hall in Dacula, GA with tables set for a wedding reception"
+    },
+    "aboutYou": {
+      "title": "It's All About You",
+      "paragraphs": [
+        "Our renting facility stands out in the area with a new and large parking space, beautiful green space around, privacy for your events, flexible hours, brand new building with modern design and multiple options for decorations.",
+        "It is an expression of our hospitality and a place you will feel welcomed."
+      ],
+      "imageAlt": "Exterior view of Fellowship Event Hall showing landscaped grounds and on-site parking"
+    }
+  },
+  "stats": {
+    "eyebrow": "About the Parish",
+    "heading": "About Saint Mary Romanian Orthodox Church",
+    "subheading": "A parish rooted in faith, tradition, and community",
+    "items": {
+      "membership": "Parish Membership",
+      "programs": "Programs",
+      "services": "Weekly Services"
+    },
+    "values": {
+      "membership": "Romanian-American parish serving families across Gwinnett County",
+      "programs": "Divine Liturgy, sacraments, youth programs, community meals",
+      "services": "Regular Sunday liturgies and seasonal services"
+    }
+  },
+  "packagesSection": {
+    "title": "Parish Programs",
+    "description": "Religious services, educational programs, cultural events, and community outreach hosted by Saint Mary Parish."
+  },
+  "availability": {
+    "eyebrow": "Service Times",
+    "heading": "Liturgical Schedule & Events",
+    "subheading": "View upcoming services, feast days, and parish events. Contact the parish for sacramental scheduling."
+  },
+  "cta": {
+    "eyebrow": "Join Us",
+    "heading": "Visit or Join Saint Mary Parish",
+    "body": "All are welcome — attend a service, join a program, or contact the parish office for pastoral care and sacramental arrangements.",
+    "button": "Contact the Parish"
+  },
+  "reviews": {
+    "eyebrow": "Parishioner Voices",
+    "heading": "What Parishioners Say",
+    "subheading": "Reflections from members and friends of Saint Mary Parish.",
+    "sourceLabel": "From the Parish",
+    "ratingLabel": "{{rating}} out of 5 stars",
+    "viewAllOnGoogle": "Read more on the parish website",
+    "items": {
+      "maria": {
+        "name": "Maria Pop",
+        "date": "2 years ago",
+        "text": "Saint Mary is a warm, welcoming community — the services and fellowship have been a blessing for our family."
+      },
+      "ion": {
+        "name": "Ion Marin",
+        "date": "a year ago",
+        "text": "The parish hosts wonderful cultural events that help preserve our Romanian traditions for the next generation."
+      },
+      "ana": {
+        "name": "Ana Ionescu",
+        "date": "6 months ago",
+        "text": "Clergy and volunteers provide caring support for families and celebrations of the sacraments."
+      }
+    }
+  },
+  "trustBadges": {
+    "community": {
+      "title": "Community-Focused",
+      "text": "Programs for families, seniors, and youth"
+    },
+    "tradition": {
+      "title": "Living Tradition",
+      "text": "Romanian Orthodox liturgy and cultural events"
+    },
+    "service": {
+      "title": "Active Outreach",
+      "text": "Meals, charity drives, and local partnerships"
+    }
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "heading": "Visit Saint Mary Romanian Orthodox Church",
+    "subheading": "Serving Gwinnett County and the greater Atlanta Romanian community.",
+    "addressTitle": "Address",
+    "getDirections": "Get Directions →",
+    "contactTitle": "Contact",
+    "toursTitle": "Parish Office Hours",
+    "toursText": "Contact the parish at saintmaryro@gmail.com or call 404-518-1042 for inquiries, sacramental scheduling, and parish events."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "subheading": "Practical information about services, sacraments, and parish life.",
+    "items": [
+      {
+        "question": "Where is Saint Mary Romanian Orthodox Church located?",
+        "answer": "2875 Winder Hwy, Dacula, GA 30019 — serving Gwinnett County and the North Atlanta area."
+      },
+      {
+        "question": "How can I contact the parish office?",
+        "answer": "Email saintmaryro@gmail.com or call 404-518-1042 for general inquiries and sacramental scheduling."
+      },
+      {
+        "question": "When are services held?",
+        "answer": "The parish celebrates Sunday Divine Liturgy and observances for major feast days; see the parish calendar for exact times and seasonal schedules."
+      },
+      {
+        "question": "Does the parish offer community meals and events?",
+        "answer": "Yes — the parish organizes community meals, cultural festivals, and outreach programs throughout the year."
+      },
+      {
+        "question": "How do I request a sacrament or pastoral visit?",
+        "answer": "Contact the parish office or speak with clergy after services to arrange baptisms, weddings, confessions, and pastoral visits."
+      }
+    ]
+  }
+}

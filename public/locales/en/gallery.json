@@ -1,0 +1,41 @@
+{
+  "title": "Fellowship Event Hall Gallery",
+  "description": "Photos of weddings, quinceañeras, and celebrations at our event hall in Dacula, GA — including hall views, setups, and decorative details.",
+  "categories": {
+    "all": "All Photos",
+    "hall": "The Hall",
+    "events": "Events",
+    "setup": "Setup",
+    "details": "Details"
+  },
+  "showing_one": "Showing {{count}} photo",
+  "showing_other": "Showing {{count}} photos",
+  "inCategory": " in {{category}}",
+  "empty": "No photos in this category yet.",
+  "viewAll": "View all photos",
+  "photos": {
+    "hallMain": "Main hall view",
+    "eventSetup": "Event setup",
+    "hallInterior": "Hall interior",
+    "decorativeDetails": "Decorative details",
+    "eventPanorama": "Event panorama",
+    "tableSetup": "Table setup",
+    "hallSeating": "Hall seating",
+    "eventWide": "Event wide shot",
+    "chairArrangement": "Chair arrangement",
+    "closeDetails": "Close-up details",
+    "hallLighting": "Hall lighting",
+    "eventCelebration": "Event celebration",
+    "stageSetup": "Stage setup",
+    "tableDecorations": "Table decorations",
+    "hallEntrance": "Hall entrance",
+    "eventDining": "Event dining",
+    "roomConfig": "Room configuration",
+    "centerpiece": "Centerpiece",
+    "hallOverview": "Hall overview",
+    "sweet16Celebration": "Sweet 16 celebration",
+    "sweet16Party": "Sweet 16 party",
+    "eventMoment": "Event moment",
+    "eventGathering": "Event gathering"
+  }
+}

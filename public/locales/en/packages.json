@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "eyebrow": "Pricing",
+    "heading": "Event Packages",
+    "subheading": "Transparent pricing for your special occasion. Every package includes our premium amenities.",
+    "imageAlt": "Fellowship Event Hall set for a wedding reception"
+  },
+  "pricingTable": {
+    "eyebrow": "By Capacity",
+    "heading": "Capacity & Pricing",
+    "mostPopular": "Most Popular",
+    "tiers": [
+      { "capacity": "50 People", "price": "$2,000" },
+      { "capacity": "100 People", "price": "$2,500" },
+      { "capacity": "150 People", "price": "$3,000" },
+      { "capacity": "200 People", "price": "$3,500" },
+      { "capacity": "250 People", "price": "$4,000" }
+    ]
+  },
+  "included": {
+    "eyebrow": "Included",
+    "heading": "What's Included in Every Package",
+    "items": [
+      "Tables & Chairs",
+      "Tablecloths & Chair Covers",
+      "Basic Sound System",
+      "Setup & Cleanup Assistance",
+      "On-site Coordinator",
+      "Parking Access"
+    ]
+  },
+  "quickQuote": {
+    "eyebrow": "Fast Quote",
+    "heading": "Get a Quick Quote via WhatsApp",
+    "description": "Select your event type for an instant quote request.",
+    "imageAlt": "Elegantly arranged tables and chairs set up for an event at Fellowship Event Hall",
+    "weddingButton": "Wedding Quote",
+    "quinceaneraButton": "Quinceañera Quote",
+    "corporateButton": "Corporate Quote",
+    "birthdayButton": "Birthday Quote"
+  },
+  "deposits": {
+    "eyebrow": "Good to Know",
+    "heading": "Refundable Deposits",
+    "body": "A <1>{{damage}} damage deposit</1> and a <3>{{cleaning}} cleaning deposit</3> are required with each rental. These fees are fully refundable as long as the venue is returned clean and undamaged.",
+    "disclaimer": "Prices are subject to change and provided for planning purposes only. Please contact us to discuss your specific event requirements."
+  },
+  "cta": {
+    "eyebrow": "Next Step",
+    "heading": "Ready to Book Your Event?",
+    "body": "Contact us today to schedule a tour and discuss how we can make your special occasion unforgettable.",
+    "button": "Get in Touch",
+    "imageAlt": "Fellowship Event Hall celebration — event venue in Dacula, GA"
+  },
+  "tiers": {
+    "intimate": {
+      "title": "Intimate Gathering",
+      "capacity": "50 Guests",
+      "price": "$2,000",
+      "description": "Perfect for small celebrations, birthday parties, and intimate gatherings. Our cozy setup ensures your guests feel right at home.",
+      "features": [
+        "Tables & Chairs",
+        "Tablecloths & Chair Covers",
+        "Basic Sound System",
+        "Setup & Cleanup"
+      ]
+    },
+    "grand": {
+      "title": "Grand Celebration",
+      "capacity": "150 Guests",
+      "price": "$3,000",
+      "description": "Our most popular choice for weddings and large celebrations. Spacious yet intimate, with all the amenities you need.",
+      "features": [
+        "Premium Tables & Chairs",
+        "Elegant Linens",
+        "Advanced Sound System",
+        "Bridal Suite Access",
+        "Dedicated Event Coordinator"
+      ]
+    },
+    "majestic": {
+      "title": "Majestic Event",
+      "capacity": "250 Guests",
+      "price": "$4,000",
+      "description": "The ultimate venue experience for grand weddings and large corporate events. Full venue access with premium services.",
+      "features": [
+        "Luxury Furnishings",
+        "Premium Linens",
+        "Professional Sound & Lighting",
+        "Bridal Suite & Prep Area",
+        "Event Coordinator",
+        "Custom Layout Design"
+      ]
+    }
+  },
+  "showcase": {
+    "eyebrow": "Packages",
+    "capacityLabel": "Capacity · {{capacity}}",
+    "perEvent": "/ event",
+    "inquireButton": "Inquire About This Package",
+    "imageAlt": "{{title}} package — event setup for {{capacity}} at Fellowship Event Hall in Dacula, GA",
+    "mostPopular": "Most Popular"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "packages": "Packages"
+  },
+  "faq": {
+    "eyebrow": "Good to Know",
+    "heading": "Packages & Booking FAQ",
+    "subheading": "Common questions about pricing, deposits, catering, and what's included.",
+    "items": [
+      {
+        "question": "What's included in every package?",
+        "answer": "Every package includes tables and chairs, tablecloths and chair covers, a basic sound system, on-site parking, an on-site coordinator, and setup and cleanup assistance. Higher-tier packages add premium linens, a bridal suite, enhanced sound and lighting, and dedicated coordination."
+      },
+      {
+        "question": "Are deposits refundable?",
+        "answer": "Yes. A $1,500 damage deposit and a $1,000 cleaning deposit are required with each rental. Both deposits are fully refundable as long as the venue is returned clean and undamaged."
+      },
+      {
+        "question": "Can we bring outside catering?",
+        "answer": "Yes — outside catering is welcome at Fellowship Event Hall. Our prep kitchen is available for your vendors, and we do not require you to use a specific caterer."
+      },
+      {
+        "question": "Is alcohol allowed at our event?",
+        "answer": "Alcohol is permitted under our standard rental guidelines. We will review the specifics with you before booking — including any requirements for licensed bartenders or insurance."
+      },
+      {
+        "question": "Is the venue wheelchair accessible?",
+        "answer": "Yes. Fellowship Event Hall is wheelchair accessible, with step-free entry and accessible restrooms."
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "answer": "Cancellation terms depend on how far ahead the event is scheduled. We will share the full policy in writing before you sign your rental agreement, so you have a clear understanding upfront."
+      },
+      {
+        "question": "How do we hold a date?",
+        "answer": "Dates are held with a signed rental agreement and the refundable deposits. Reach out via the contact form, WhatsApp, or phone and we will confirm availability and walk you through the next steps."
+      }
+    ]
+  }
+}

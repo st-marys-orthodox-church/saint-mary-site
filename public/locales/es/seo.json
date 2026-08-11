@@ -1,0 +1,60 @@
+{
+  "siteName": "Fellowship Event Hall",
+  "siteTitle": "Fellowship Event Hall",
+  "siteDescription": "Elegante salón de eventos de 5.000 pies cuadrados en Dacula, GA. Celebra bodas, quinceañeras, recepciones y banquetes para hasta 250 invitados. Paquetes desde 2.000 $. Al servicio de Gwinnett County y North Atlanta.",
+  "ogImageAlt": "Fellowship Event Hall en Dacula, GA — elegante montaje de recepción con arañas de luces, mantelería blanca y centros de mesa florales",
+  "home": {
+    "title": "Fellowship Event Hall | Bodas, Quinceañeras y Banquetes en Dacula, GA",
+    "description": "Elegante salón de eventos de 5.000 pies cuadrados en Dacula, GA. Celebra bodas, quinceañeras, recepciones y banquetes para hasta 250 invitados. Paquetes desde 2.000 $. Al servicio de Gwinnett County y North Atlanta."
+  },
+  "packages": {
+    "title": "Paquetes de bodas y eventos — Fellowship Event Hall, Dacula GA",
+    "description": "Consulta nuestros paquetes y precios del salón de eventos — bodas, quinceañeras y banquetes. Incluyen mesas, sillas, mantelería y mucho más. Desde 2.000 $ para 50 invitados."
+  },
+  "gallery": {
+    "title": "Galería de fotos — Salón para bodas y quinceañeras en Dacula GA",
+    "description": "Explora nuestra galería del salón de eventos. Mira fotos de bodas, quinceañeras y celebraciones realizadas en el salón de eventos de St. Mary's Orthodox Church en Dacula, GA."
+  },
+  "structuredData": {
+    "areaServed": [
+      "Dacula, GA",
+      "Lawrenceville, GA",
+      "Buford, GA",
+      "Hoschton, GA",
+      "Duluth, GA",
+      "Suwanee, GA",
+      "Gwinnett County, GA",
+      "Área metropolitana de North Atlanta"
+    ],
+    "amenities": {
+      "parking": "Aparcamiento en las instalaciones",
+      "wifi": "Wi-Fi",
+      "sound": "Sistema de sonido",
+      "bridal": "Suite nupcial",
+      "kitchen": "Cocina de preparación",
+      "furniture": "Mesas y sillas",
+      "accessibility": "Accesible para sillas de ruedas"
+    },
+    "packageDescription": "Paquete de evento con capacidad para hasta {{capacity}} en Fellowship Event Hall.",
+    "offerCatalogName": "Fellowship Event Hall — Paquetes de eventos",
+    "packageSuffix": "Paquete",
+    "services": {
+      "wedding": {
+        "name": "Alquiler de espacio para bodas",
+        "description": "Alquiler de espacio para ceremonias y banquetes de boda en Fellowship Event Hall en Dacula, GA — capacidad para hasta 250 invitados, con suite nupcial, sonido e iluminación y coordinador in situ."
+      },
+      "quinceanera": {
+        "name": "Alquiler de espacio para quinceañeras",
+        "description": "Alquiler de espacio para celebraciones de quinceañera en Fellowship Event Hall en Dacula, GA — acceso completo al salón con mesas, mantelería, sistema de sonido y pista de baile para hasta 250 invitados."
+      },
+      "corporate": {
+        "name": "Alquiler de espacio para eventos corporativos",
+        "description": "Alquiler de espacio para eventos corporativos y reuniones de equipo en Fellowship Event Hall en Dacula, GA — horarios flexibles, aparcamiento en el recinto, cocina de preparación y Wi-Fi."
+      },
+      "birthday": {
+        "name": "Alquiler de espacio para cumpleaños y fiestas privadas",
+        "description": "Alquiler de espacio para fiestas de cumpleaños y celebraciones privadas en Fellowship Event Hall en Dacula, GA — desde reuniones íntimas hasta grandes eventos, con mesas, sillas, mantelería y coordinador in situ incluidos."
+      }
+    }
+  }
+}

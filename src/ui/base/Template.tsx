@@ -1,0 +1,29 @@
+import type { ReactNode } from 'react';
+import { useWindowSize } from '../../hooks';
+import { Footer } from './Footer';
+import { Navbar } from './Navbar';
+
+type ITemplateProps = {
+  children: ReactNode;
+  topPad?: boolean;
+  bottomPad?: boolean;
+};
+
+export const Template = (props: ITemplateProps) => {
+  const { scrollY } = useWindowSize();
+  return (
+    <>
+      <div
+        className={`w-full z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300 ease-refined border-b border-stone-200/60 ${
+          scrollY > 0 ? 'fixed bg-white/95 backdrop-blur-sm shadow-soft' : 'absolute bg-white'
+        }`}
+      >
+        <Navbar />
+      </div>
+      {props.topPad && <div className="h-[68.5px]" />}
+      <main className="opacity-100">{props.children}</main>
+      {props.bottomPad && <div className="h-[68.5px]" />}
+      <Footer />
+    </>
+  );
+};

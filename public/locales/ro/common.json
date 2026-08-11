@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "calendar": "Calendar",
+    "donate": "Donează",
+    "gallery": "Galerie",
+    "contactUs": "Contactează-ne",
+    "contact": "Contact",
+    "contactForm": "Formular de contact",
+    "navigation": "Navigare",
+    "homeAriaLabel": "Biserica Sfânta Maria — Acasă",
+    "language": "Limbă",
+    "languageNames": {
+      "en": "English",
+      "es": "Español",
+      "ro": "Română"
+    }
+  },
+  "whatsapp": {
+    "chat": "Scrie pe WhatsApp",
+    "default": "Scrie pe WhatsApp"
+  },
+  "footer": {
+    "connect": "Conectează-te cu noi",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Hartă care arată Fellowship Event Hall la 2875 Winder Hwy, Dacula, GA 30019",
+    "visitTitle": "Vizitează",
+    "contactTitle": "Contact",
+    "hoursTitle": "Program",
+    "hours": "Zilnic, 8:00 – 18:00 EST",
+    "getDirections": "Obține indicații"
+  },
+  "logo": {
+    "alt": "Biserica Ortodoxă Română Sfânta Maria"
+  },
+  "calendar": {
+    "previousMonth": "Luna anterioară",
+    "nextMonth": "Luna următoare",
+    "clickHint": "Apăsați pe orice dată disponibilă pentru a începe",
+    "available": "Disponibil",
+    "booked": "Rezervat",
+    "past": "Trecut",
+    "errorTitle": "Calendar temporar indisponibil",
+    "errorBody": "Vă rugăm să ne sunați sau să trimiteți formularul de contact pentru a verifica disponibilitatea.",
+    "selectDateAria": "{{month}} {{day}}, {{year}}, disponibil — selectați data pentru a solicita informații",
+    "dayStatusAria": "{{month}} {{day}}, {{year}}, {{status}}"
+  }
+}
