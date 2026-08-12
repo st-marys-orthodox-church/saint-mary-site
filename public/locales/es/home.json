@@ -37,8 +37,7 @@
       "titlePrefix": "Noticias y",
       "titleAccent": "Eventos Parroquiales",
       "readMore": "Leer Más",
-      "fallbackImage": "Imagen disponible en Facebook",
-      "repostLabel": "Repost",
+      "fallbackImage": "Imagen no disponible",
       "items": [
         {
           "date": "23 de marzo de 2026",

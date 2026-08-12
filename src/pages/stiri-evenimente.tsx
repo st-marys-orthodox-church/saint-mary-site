@@ -4,15 +4,15 @@ import { serverSideTranslations } from 'next-i18next/pages/serverSideTranslation
 import Link from 'next/link';
 import { Meta } from '../ui/base/Meta';
 import { Template } from '../ui/base/Template';
-import { type FacebookPost, getFacebookPostPath } from '../utils/facebookPostsShared';
+import { type NewsPost, getNewsPostPath, listNewsPosts } from '../utils/NewsPosts';
 import { I18N_DEFAULT_LOCALE } from '../utils/i18nConfig';
 
 type StiriEvenimentePageProps = {
-  posts: FacebookPost[];
+  posts: NewsPost[];
 };
 
 const StiriEvenimentePage = ({ posts }: StiriEvenimentePageProps) => {
-  const { t, i18n } = useTranslation('facebookFeed');
+  const { t, i18n } = useTranslation('newsFeed');
   const locale = i18n.language;
 
   return (
@@ -34,7 +34,7 @@ const StiriEvenimentePage = ({ posts }: StiriEvenimentePageProps) => {
               <div className="mt-14 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
                 {posts.map((post) => (
                   <article
-                    key={post.facebookPostId}
+                    key={post.id}
                     className="overflow-hidden rounded-sm border border-stone-200 bg-white shadow-[0_24px_54px_-42px_rgba(28,25,23,0.45)]"
                   >
                     <div className="relative aspect-[4/3] overflow-hidden bg-stone-200">
@@ -56,7 +56,7 @@ const StiriEvenimentePage = ({ posts }: StiriEvenimentePageProps) => {
                         day: 'numeric',
                         month: 'long',
                         year: 'numeric',
-                      }).format(new Date(post.createdTime))}
+                      }).format(new Date(post.createdAt))}
                     </div>
 
                     <div className="px-6 pb-7">
@@ -65,18 +65,9 @@ const StiriEvenimentePage = ({ posts }: StiriEvenimentePageProps) => {
                         {post.excerpt || post.message || t('emptyExcerpt')}
                       </p>
 
-                      <div className="mt-6 flex items-center justify-between gap-4">
-                        {post.isRepost ? (
-                          <span className="rounded-sm border border-sky-200 bg-sky-50 px-3 py-1 text-xs uppercase tracking-[0.18em] text-sky-700">
-                            {t('repostLabel')}
-                          </span>
-                        ) : (
-                          <span className="text-xs uppercase tracking-[0.18em] text-stone-400">
-                            {t('facebookSource')}
-                          </span>
-                        )}
+                      <div className="mt-6 flex items-center justify-end gap-4">
                         <Link
-                          href={getFacebookPostPath(post.facebookPostId)}
+                          href={getNewsPostPath(post.id)}
                           className="text-sm font-medium uppercase tracking-[0.18em] text-brand-green transition-colors duration-300 hover:text-brand-gold"
                         >
                           {t('readMore')} →
@@ -102,12 +93,10 @@ const StiriEvenimentePage = ({ posts }: StiriEvenimentePageProps) => {
 export const getServerSideProps: GetServerSideProps<StiriEvenimentePageProps> = async ({
   locale,
 }) => {
-  const { listFacebookPosts } = await import('../server/facebookPostsStore');
-
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? I18N_DEFAULT_LOCALE, ['common', 'facebookFeed'])),
-      posts: await listFacebookPosts(24),
+      ...(await serverSideTranslations(locale ?? I18N_DEFAULT_LOCALE, ['common', 'newsFeed'])),
+      posts: listNewsPosts(),
     },
   };
 };

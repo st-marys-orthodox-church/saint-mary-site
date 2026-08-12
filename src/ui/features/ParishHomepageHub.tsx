@@ -21,7 +21,6 @@ type PostPreview = {
   imageUrl?: string;
   postPath?: string;
   title: string;
-  isRepost?: boolean;
 };
 
 const toneClasses: Record<EventTone, string> = {
@@ -248,13 +247,6 @@ export const ParishHomepageHub = ({
                   <p className="mt-5 line-clamp-4 text-base leading-8 text-stone-600">
                     {post.excerpt}
                   </p>
-                  {post.isRepost ? (
-                    <div className="mt-5">
-                      <span className="rounded-sm border border-sky-200 bg-sky-50 px-3 py-1 text-xs uppercase tracking-[0.18em] text-sky-700">
-                        {t('homepageHub.news.repostLabel')}
-                      </span>
-                    </div>
-                  ) : null}
                   <Link
                     href={post.postPath || '/stiri-evenimente'}
                     className="mt-6 inline-flex items-center gap-1 text-sm font-medium uppercase tracking-[0.18em] text-brand-green transition-colors duration-300 hover:text-brand-gold"

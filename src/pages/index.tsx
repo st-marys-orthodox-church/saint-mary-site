@@ -5,8 +5,8 @@ import { Meta } from '../ui/base/Meta';
 import { Template } from '../ui/base/Template';
 import { Hero } from '../ui/features/Hero';
 import { ParishHomepageHub } from '../ui/features/ParishHomepageHub';
+import { getNewsPostPath, listNewsPosts } from '../utils/NewsPosts';
 import type { ChurchCalendarEvent } from '../utils/churchCalendarShared';
-import { type FacebookPost, getFacebookPostPath } from '../utils/facebookPostsShared';
 import { I18N_DEFAULT_LOCALE } from '../utils/i18nConfig';
 
 type HomePageProps = {
@@ -15,7 +15,6 @@ type HomePageProps = {
     date: string;
     excerpt: string;
     imageUrl: string;
-    isRepost: boolean;
     postPath: string;
     title: string;
   }>;
@@ -54,18 +53,16 @@ const Index = ({
 export const getServerSideProps: GetServerSideProps<HomePageProps> = async ({ locale }) => {
   const { getChurchCalendarEvents } = await import('../server/churchCalendar');
   const { getChurchCalendarEventDayKey } = await import('../utils/churchCalendarShared');
-  const { listFacebookPosts } = await import('../server/facebookPostsStore');
   const { events, unavailable } = await getChurchCalendarEvents();
-  const homepagePosts = (await listFacebookPosts(2)).map((post: FacebookPost) => ({
+  const homepagePosts = listNewsPosts(2).map((post) => ({
     date: new Intl.DateTimeFormat(locale ?? undefined, {
       day: 'numeric',
       month: 'long',
       year: 'numeric',
-    }).format(new Date(post.createdTime)),
+    }).format(new Date(post.createdAt)),
     excerpt: post.excerpt || post.message,
-    imageUrl: post.imageUrl,
-    isRepost: post.isRepost,
-    postPath: getFacebookPostPath(post.facebookPostId),
+    imageUrl: post.imageUrl ?? '',
+    postPath: getNewsPostPath(post.id),
     title: post.title,
   }));
 

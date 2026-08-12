@@ -37,8 +37,7 @@
       "titlePrefix": "News and",
       "titleAccent": "Parish Events",
       "readMore": "Read More",
-      "fallbackImage": "Image available on Facebook",
-      "repostLabel": "Repost",
+      "fallbackImage": "No image available",
       "items": [
         {
           "date": "March 23, 2026",

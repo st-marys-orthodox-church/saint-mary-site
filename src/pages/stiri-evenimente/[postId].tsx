@@ -4,15 +4,15 @@ import { serverSideTranslations } from 'next-i18next/pages/serverSideTranslation
 import Link from 'next/link';
 import { Meta } from '../../ui/base/Meta';
 import { Template } from '../../ui/base/Template';
-import type { FacebookPost } from '../../utils/facebookPostsShared';
+import { type NewsPost, getNewsPostById } from '../../utils/NewsPosts';
 import { I18N_DEFAULT_LOCALE } from '../../utils/i18nConfig';
 
-type FacebookPostDetailPageProps = {
-  post: FacebookPost | null;
+type NewsPostDetailPageProps = {
+  post: NewsPost | null;
 };
 
-const FacebookPostDetailPage = ({ post }: FacebookPostDetailPageProps) => {
-  const { t, i18n } = useTranslation('facebookFeed');
+const NewsPostDetailPage = ({ post }: NewsPostDetailPageProps) => {
+  const { t, i18n } = useTranslation('newsFeed');
   const locale = i18n.language;
 
   if (!post) {
@@ -71,13 +71,8 @@ const FacebookPostDetailPage = ({ post }: FacebookPostDetailPageProps) => {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric',
-                    }).format(new Date(post.createdTime))}
+                    }).format(new Date(post.createdAt))}
                   </span>
-                  {post.isRepost ? (
-                    <span className="rounded-sm border border-sky-200 bg-sky-50 px-3 py-1 text-sky-700">
-                      {t('repostLabel')}
-                    </span>
-                  ) : null}
                 </div>
 
                 <h1 className="mt-5 text-4xl text-stone-900 md:text-5xl">{post.title}</h1>
@@ -86,16 +81,18 @@ const FacebookPostDetailPage = ({ post }: FacebookPostDetailPageProps) => {
                   {post.message || post.excerpt}
                 </div>
 
-                <div className="mt-8">
-                  <Link
-                    href={post.permalinkUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-sm border border-brand-green px-6 py-3 text-sm font-medium uppercase tracking-[0.18em] text-brand-green transition-colors duration-300 hover:border-brand-gold hover:text-brand-gold"
-                  >
-                    {t('viewOnFacebook')}
-                  </Link>
-                </div>
+                {post.externalUrl ? (
+                  <div className="mt-8">
+                    <Link
+                      href={post.externalUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-sm border border-brand-green px-6 py-3 text-sm font-medium uppercase tracking-[0.18em] text-brand-green transition-colors duration-300 hover:border-brand-gold hover:text-brand-gold"
+                    >
+                      {t('viewExternalLink')}
+                    </Link>
+                  </div>
+                ) : null}
               </div>
             </article>
           </div>
@@ -105,20 +102,19 @@ const FacebookPostDetailPage = ({ post }: FacebookPostDetailPageProps) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps<FacebookPostDetailPageProps> = async ({
+export const getServerSideProps: GetServerSideProps<NewsPostDetailPageProps> = async ({
   locale,
   params,
 }) => {
-  const { getFacebookPostById } = await import('../../server/facebookPostsStore');
   const postId = typeof params?.postId === 'string' ? decodeURIComponent(params.postId) : '';
-  const post = postId ? await getFacebookPostById(postId) : null;
+  const post = postId ? getNewsPostById(postId) : null;
 
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? I18N_DEFAULT_LOCALE, ['common', 'facebookFeed'])),
+      ...(await serverSideTranslations(locale ?? I18N_DEFAULT_LOCALE, ['common', 'newsFeed'])),
       post,
     },
   };
 };
 
-export default FacebookPostDetailPage;
+export default NewsPostDetailPage;

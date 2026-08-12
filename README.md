@@ -40,16 +40,9 @@ Copy `.env.local` and set:
 ```
 SENDGRID_API_KEY=<your-sendgrid-key>
 ANTHROPIC_API_KEY=<optional — enables auto-translation in scripts/i18n-sync.mjs>
-FACEBOOK_PAGE_ID=<meta-page-id>
-FACEBOOK_PAGE_ACCESS_TOKEN=<page-access-token-with-pages_read_engagement>
-FACEBOOK_SYNC_PAGE_SIZE=25
-CRON_SECRET=<shared-secret-for-vercel-cron>
-TURSO_DATABASE_URL=<libsql-or-https-url>
-TURSO_AUTH_TOKEN=<turso-auth-token>
 ```
 
 `SENDGRID_API_KEY` is used by `src/pages/api/sendgrid.ts` to deliver the contact form. `ANTHROPIC_API_KEY` is only needed locally when running `pnpm i18n:sync` to translate new strings.
-The Facebook sync uses `FACEBOOK_PAGE_ID` + `FACEBOOK_PAGE_ACCESS_TOKEN`, stores posts in Turso when `TURSO_DATABASE_URL` is set, and falls back to a local SQLite file at `data/facebook-posts.db` during local development. `ANTHROPIC_API_KEY` is also reused by the Facebook sync to generate polished post titles when available; otherwise the sync falls back to a deterministic title derived from the post content.
 
 ## Scripts
 
@@ -127,12 +120,7 @@ Managed by **Lefthook** (`lefthook.yml`). Installed automatically via the `prepa
 
 Any Next.js-compatible host (Vercel, Netlify, self-hosted Node). Make sure `SENDGRID_API_KEY` is set in the deploy environment.
 
-For the parish Facebook feed:
-
-- Configure `FACEBOOK_PAGE_ID`, `FACEBOOK_PAGE_ACCESS_TOKEN`, `CRON_SECRET`, `TURSO_DATABASE_URL`, and `TURSO_AUTH_TOKEN` in production.
-- The scheduled sync endpoint is `GET /api/cron/facebook-sync`.
-- `vercel.json` runs that sync once per day.
-- Homepage and `/stiri-evenimente` render from the cached local/Turso post store rather than fetching Facebook on every request.
+Parish news and event posts on `/stiri-evenimente` and the homepage are hand-authored in `src/utils/NewsPosts.ts` — no external sync or database is involved. Edit that file to add, update, or remove posts.
 
 ## AI-assisted development
 
