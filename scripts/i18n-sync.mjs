@@ -6,11 +6,11 @@
 //
 // With ANTHROPIC_API_KEY set (e.g., in .env.local), missing strings are
 // translated by Claude. Without it, missing strings fall back to a bracketed
-// placeholder ("[ES] Hello") so untranslated copy is visible in the browser.
+// placeholder ("[RO] Hello") so untranslated copy is visible in the browser.
 //
 // Flags:
 //   --check         exit 1 if anything would change; no writes. CI-friendly.
-//   --retranslate   treat every [ES]/[RO] placeholder as missing and re-run.
+//   --retranslate   treat every [RO] placeholder as missing and re-run.
 //   --no-translate  skip the API even if a key is configured.
 
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
@@ -21,8 +21,8 @@ import Anthropic from '@anthropic-ai/sdk';
 const ROOT = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const LOCALES_DIR = join(ROOT, 'public', 'locales');
 const DEFAULT_LOCALE = 'en';
-const TARGET_LOCALES = ['es', 'ro'];
-const LOCALE_NAMES = { es: 'Spanish (Spain)', ro: 'Romanian' };
+const TARGET_LOCALES = ['ro'];
+const LOCALE_NAMES = { ro: 'Romanian' };
 const MODEL = 'claude-opus-4-7';
 
 const CHECK_MODE = process.argv.includes('--check');

@@ -18,7 +18,6 @@ type IMetaProps = {
 
 const OG_LOCALE: Record<string, string> = {
   en: 'en_US',
-  es: 'es_ES',
   ro: 'ro_RO',
 };
 

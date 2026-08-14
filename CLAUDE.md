@@ -12,7 +12,7 @@ It is a small static-leaning Next.js site — a landing page, a packages/pricing
 
 - **Next.js 15** (Pages Router — not App Router) + **React 19** + **TypeScript 5**
 - **Tailwind 3** for utility styling, **MUI 6** for icons & a few components, **Emotion** as MUI's style engine
-- **next-i18next** for i18n (en / es / ro)
+- **next-i18next** for i18n (en / ro), locale auto-detected from the browser
 - **react-photo-album** + **yet-another-react-lightbox** for the gallery
 - **next-seo** + **next-sitemap** for SEO
 - **SendGrid** for contact form delivery
@@ -29,7 +29,7 @@ pnpm dev          # dev server on :3000 (Turbopack — fast HMR)
 pnpm build        # production build + sitemap (webpack, not Turbopack — stable)
 pnpm check        # Biome: lint + format + organize imports (autofix)
 pnpm build-types  # tsc --noEmit
-pnpm i18n:sync    # sync es/ro locales against en (auto-translates if ANTHROPIC_API_KEY set)
+pnpm i18n:sync    # sync ro locale against en (auto-translates if ANTHROPIC_API_KEY set)
 pnpm i18n:check   # CI check — fails if locales drift
 ```
 

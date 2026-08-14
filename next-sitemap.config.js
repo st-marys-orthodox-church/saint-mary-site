@@ -26,7 +26,7 @@ module.exports = {
     ],
   },
   transform: async (config, path) => {
-    const stripped = path.replace(/^\/(es|ro)(\/|$)/, '/');
+    const stripped = path.replace(/^\/(ro)(\/|$)/, '/');
     const normalized = stripped.replace(/\/$/, '') || '/';
     const priorityMap = {
       '/': 1.0,

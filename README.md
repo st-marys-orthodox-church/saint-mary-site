@@ -10,7 +10,7 @@ Marketing site for **Fellowship Event Hall** — the event venue on the property
 | Runtime      | React 19                                                           |
 | Language     | TypeScript 5                                                       |
 | Styling      | Tailwind CSS 3 + MUI 6 + Emotion                                   |
-| i18n         | `next-i18next` (en, es, ro)                                        |
+| i18n         | `next-i18next` (en, ro) — locale auto-detected from browser        |
 | Animation    | `react-animation-on-scroll` + `animate.css`                        |
 | Gallery      | `react-photo-album` + `yet-another-react-lightbox`                 |
 | SEO          | `next-seo` + `next-sitemap`                                        |

@@ -9,7 +9,6 @@ import { I18N_DEFAULT_LOCALE, I18N_LOCALES } from '../../utils/i18nConfig';
 
 const LOCALE_SHORT: Record<string, string> = {
   en: 'EN',
-  es: 'ES',
   ro: 'RO',
 };
 
