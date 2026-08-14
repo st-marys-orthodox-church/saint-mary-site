@@ -3,7 +3,7 @@
     "eyebrow": "Prețuri",
     "heading": "Pachete pentru evenimente",
     "subheading": "Prețuri transparente pentru ocazia ta specială. Fiecare pachet include facilitățile noastre premium.",
-    "imageAlt": "Fellowship Event Hall aranjat pentru o recepție de nuntă"
+    "imageAlt": "Biserica Sfânta Maria aranjată pentru o recepție de nuntă"
   },
   "pricingTable": {
     "eyebrow": "După capacitate",
@@ -48,7 +48,7 @@
     "eyebrow": "Ofertă rapidă",
     "heading": "Obține rapid o ofertă prin WhatsApp",
     "description": "Selectează tipul evenimentului pentru o cerere instantanee de ofertă.",
-    "imageAlt": "Mese și scaune aranjate elegant pentru un eveniment la Fellowship Event Hall",
+    "imageAlt": "Mese și scaune aranjate elegant pentru un eveniment la Biserica Sfânta Maria",
     "weddingButton": "Ofertă nuntă",
     "quinceaneraButton": "Ofertă quinceañera",
     "corporateButton": "Ofertă corporate",
@@ -65,7 +65,7 @@
     "heading": "Ești gata să-ți rezervi evenimentul?",
     "body": "Contactează-ne astăzi pentru a programa un tur și a discuta cum putem face ocazia ta specială de neuitat.",
     "button": "Ia legătura",
-    "imageAlt": "Celebrație la Fellowship Event Hall — sala de evenimente din Dacula, GA"
+    "imageAlt": "Celebrație la Biserica Sfânta Maria — sala de evenimente din Dacula, GA"
   },
   "tiers": {
     "intimate": {
@@ -113,7 +113,7 @@
     "capacityLabel": "Capacitate · {{capacity}}",
     "perEvent": "/ eveniment",
     "inquireButton": "Cere informații despre acest pachet",
-    "imageAlt": "Pachetul {{title}} — aranjament pentru eveniment de {{capacity}} la Fellowship Event Hall din Dacula, GA",
+    "imageAlt": "Pachetul {{title}} — aranjament pentru eveniment de {{capacity}} la Biserica Sfânta Maria din Dacula, GA",
     "mostPopular": "Cel mai popular"
   },
   "breadcrumb": {
@@ -135,7 +135,7 @@
       },
       {
         "question": "Putem aduce catering din exterior?",
-        "answer": "Da — cateringul din exterior este binevenit la Fellowship Event Hall. Bucătăria noastră de pregătire este disponibilă pentru furnizorii dumneavoastră și nu vă cerem să folosiți un anumit caterer."
+        "answer": "Da — cateringul din exterior este binevenit la Biserica Sfânta Maria. Bucătăria noastră de pregătire este disponibilă pentru furnizorii dumneavoastră și nu vă cerem să folosiți un anumit caterer."
       },
       {
         "question": "Este permis alcoolul la evenimentul nostru?",
@@ -143,7 +143,7 @@
       },
       {
         "question": "Locația este accesibilă pentru scaune cu rotile?",
-        "answer": "Da. Fellowship Event Hall este accesibilă pentru scaune cu rotile, cu intrare fără trepte și toalete accesibile."
+        "answer": "Da. Sala noastră de evenimente este accesibilă pentru scaune cu rotile, cu intrare fără trepte și toalete accesibile."
       },
       {
         "question": "Care este politica de anulare?",

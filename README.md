@@ -1,6 +1,6 @@
-# Fellowship Event Hall
+# Saint Mary Romanian Orthodox Church
 
-Marketing site for **Fellowship Event Hall** — the event venue on the property of [St. Mary Romanian Orthodox Church](https://saintmaryro.org). Production URL: [events.saintmaryro.org](https://events.saintmaryro.org).
+Site for **Saint Mary Romanian Orthodox Church** (Dacula, GA) — parish life, calendar, news, and the on-site event hall available for weddings, quinceañeras, and banquets. Production URL: [events.saintmaryro.org](https://events.saintmaryro.org).
 
 ## Stack
 

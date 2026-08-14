@@ -6,7 +6,7 @@ import { SOCIALS } from './Constants';
 export const AppConfig = {
   defaultLocale: 'en',
   url: 'https://events.saintmaryro.org',
-  logo: 'https://events.saintmaryro.org/logos/logo.jpg',
+  logo: 'https://events.saintmaryro.org/logos/saintmaryrologo.png',
   ogImage: 'https://events.saintmaryro.org/og-image.jpg',
   themeColor: '#7c9885',
   instagram: SOCIALS.IG,

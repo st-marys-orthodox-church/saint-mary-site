@@ -3,7 +3,7 @@
     "eyebrow": "Pricing",
     "heading": "Event Packages",
     "subheading": "Transparent pricing for your special occasion. Every package includes our premium amenities.",
-    "imageAlt": "Fellowship Event Hall set for a wedding reception"
+    "imageAlt": "Saint Mary Romanian Orthodox Church event hall set for a wedding reception"
   },
   "pricingTable": {
     "eyebrow": "By Capacity",
@@ -33,7 +33,7 @@
     "eyebrow": "Fast Quote",
     "heading": "Get a Quick Quote via WhatsApp",
     "description": "Select your event type for an instant quote request.",
-    "imageAlt": "Elegantly arranged tables and chairs set up for an event at Fellowship Event Hall",
+    "imageAlt": "Elegantly arranged tables and chairs set up for an event at Saint Mary Romanian Orthodox Church",
     "weddingButton": "Wedding Quote",
     "quinceaneraButton": "Quinceañera Quote",
     "corporateButton": "Corporate Quote",
@@ -50,7 +50,7 @@
     "heading": "Ready to Book Your Event?",
     "body": "Contact us today to schedule a tour and discuss how we can make your special occasion unforgettable.",
     "button": "Get in Touch",
-    "imageAlt": "Fellowship Event Hall celebration — event venue in Dacula, GA"
+    "imageAlt": "Saint Mary Romanian Orthodox Church celebration — event venue in Dacula, GA"
   },
   "tiers": {
     "intimate": {
@@ -98,7 +98,7 @@
     "capacityLabel": "Capacity · {{capacity}}",
     "perEvent": "/ event",
     "inquireButton": "Inquire About This Package",
-    "imageAlt": "{{title}} package — event setup for {{capacity}} at Fellowship Event Hall in Dacula, GA",
+    "imageAlt": "{{title}} package — event setup for {{capacity}} at Saint Mary Romanian Orthodox Church in Dacula, GA",
     "mostPopular": "Most Popular"
   },
   "breadcrumb": {
@@ -120,7 +120,7 @@
       },
       {
         "question": "Can we bring outside catering?",
-        "answer": "Yes — outside catering is welcome at Fellowship Event Hall. Our prep kitchen is available for your vendors, and we do not require you to use a specific caterer."
+        "answer": "Yes — outside catering is welcome at Saint Mary Romanian Orthodox Church. Our prep kitchen is available for your vendors, and we do not require you to use a specific caterer."
       },
       {
         "question": "Is alcohol allowed at our event?",
@@ -128,7 +128,7 @@
       },
       {
         "question": "Is the venue wheelchair accessible?",
-        "answer": "Yes. Fellowship Event Hall is wheelchair accessible, with step-free entry and accessible restrooms."
+        "answer": "Yes. Our event hall is wheelchair accessible, with step-free entry and accessible restrooms."
       },
       {
         "question": "What is your cancellation policy?",

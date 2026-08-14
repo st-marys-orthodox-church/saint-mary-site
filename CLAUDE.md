@@ -4,9 +4,9 @@ Guidance for Claude Code (and other AI coding agents) working in this repo.
 
 ## What this repo is
 
-Marketing site for **Fellowship Event Hall**, the event venue on the property of **St. Mary Romanian Orthodox Church** (Dacula, GA). Production at [events.saintmaryro.org](https://events.saintmaryro.org).
+Site for **Saint Mary Romanian Orthodox Church** (Dacula, GA) — parish life, liturgical calendar, news, and the on-site event hall available for weddings, quinceañeras, and banquets. Production at [events.saintmaryro.org](https://events.saintmaryro.org).
 
-It is a small static-leaning Next.js site — a landing page, a packages/pricing page, a gallery, and a SendGrid-powered contact form. Not a SaaS product; not multi-tenant; not authenticated. Changes should respect that scope.
+It is a small static-leaning Next.js site — a landing/parish page, a packages/pricing page for the event hall, a gallery, and a SendGrid-powered contact form. Not a SaaS product; not multi-tenant; not authenticated. Changes should respect that scope.
 
 ## Stack at a glance
 

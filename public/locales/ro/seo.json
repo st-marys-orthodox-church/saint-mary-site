@@ -1,19 +1,19 @@
 {
-  "siteName": "Fellowship Event Hall",
-  "siteTitle": "Fellowship Event Hall",
-  "siteDescription": "Sală elegantă de evenimente de 5.000 sq ft în Dacula, GA. Găzduiește nunți, quinceañeras, recepții și banchete pentru până la 250 de invitați. Pachete de la $2,000. Deservim Gwinnett County și North Atlanta.",
-  "ogImageAlt": "Fellowship Event Hall în Dacula, GA — aranjament elegant de recepție cu candelabre, lenjerii albe și aranjamente florale centrale",
+  "siteName": "Biserica Ortodoxă Română Sfânta Maria",
+  "siteTitle": "Biserica Ortodoxă Română Sfânta Maria",
+  "siteDescription": "O parohie ortodoxă română primitoare din Dacula, GA, cu o sală elegantă de evenimente de 5.000 sq ft pentru nunți, quinceañeras, recepții și banchete pentru până la 250 de invitați. Pachete de la $2,000.",
+  "ogImageAlt": "Sala de evenimente a Bisericii Sfânta Maria în Dacula, GA — aranjament elegant de recepție cu candelabre, lenjerii albe și aranjamente florale centrale",
   "home": {
-    "title": "Fellowship Event Hall | Nunți, Quinceañeras și Banchete în Dacula, GA",
-    "description": "Sală elegantă de evenimente de 5.000 sq ft în Dacula, GA. Găzduiește nunți, quinceañeras, recepții și banchete pentru până la 250 de invitați. Pachete de la $2,000. Deservim Gwinnett County și North Atlanta."
+    "title": "Biserica Ortodoxă Română Sfânta Maria | Parohie și Sală de Evenimente în Dacula, GA",
+    "description": "O parohie ortodoxă română primitoare din Dacula, GA, cu o sală elegantă de evenimente de 5.000 sq ft pentru nunți, quinceañeras, recepții și banchete pentru până la 250 de invitați. Pachete de la $2,000."
   },
   "packages": {
-    "title": "Pachete pentru nunți și evenimente — Fellowship Event Hall, Dacula GA",
-    "description": "Vezi pachetele și prețurile sălii noastre de evenimente — nunți, quinceañeras și banchete. Includ mese, scaune, lenjerii și multe altele. Începând de la $2,000 pentru 50 de invitați."
+    "title": "Pachete pentru nunți și evenimente | Biserica Sfânta Maria, Dacula GA",
+    "description": "Vezi pachetele și prețurile sălii noastre de evenimente de la Biserica Sfânta Maria — nunți, quinceañeras și banchete. Includ mese, scaune, lenjerii și multe altele. Începând de la $2,000 pentru 50 de invitați."
   },
   "gallery": {
     "title": "Galerie foto — Sală pentru nunți și quinceañeras în Dacula GA",
-    "description": "Răsfoiește galeria sălii noastre de evenimente. Vezi fotografii de la nunți, quinceañeras și sărbători organizate la sala de evenimente a Bisericii Ortodoxe St. Mary's din Dacula, GA."
+    "description": "Răsfoiește galeria sălii noastre de evenimente. Vezi fotografii de la nunți, quinceañeras și sărbători organizate la Biserica Ortodoxă Sfânta Maria din Dacula, GA."
   },
   "structuredData": {
     "areaServed": [
@@ -35,25 +35,25 @@
       "furniture": "Mese și scaune",
       "accessibility": "Accesibil pentru scaune cu rotile"
     },
-    "packageDescription": "Pachet pentru eveniment care găzduiește până la {{capacity}} la Fellowship Event Hall.",
-    "offerCatalogName": "Fellowship Event Hall — Pachete pentru evenimente",
+    "packageDescription": "Pachet pentru eveniment care găzduiește până la {{capacity}} la Biserica Sfânta Maria.",
+    "offerCatalogName": "Biserica Sfânta Maria — Pachete pentru evenimente",
     "packageSuffix": "Pachet",
     "services": {
       "wedding": {
         "name": "Închiriere locație pentru nuntă",
-        "description": "Închiriere locație pentru ceremonie și recepție de nuntă la Fellowship Event Hall în Dacula, GA — capacitate de până la 250 de invitați, cu suită pentru mireasă, sistem audio și de iluminat și coordonator la fața locului."
+        "description": "Închiriere locație pentru ceremonie și recepție de nuntă la Biserica Sfânta Maria în Dacula, GA — capacitate de până la 250 de invitați, cu suită pentru mireasă, sistem audio și de iluminat și coordonator la fața locului."
       },
       "quinceanera": {
         "name": "Închiriere locație pentru Quinceañera",
-        "description": "Închiriere locație pentru sărbătoarea de Quinceañera la Fellowship Event Hall în Dacula, GA — acces complet la sală, cu mese, lenjerii, sistem audio și ring de dans pentru până la 250 de invitați."
+        "description": "Închiriere locație pentru sărbătoarea de Quinceañera la Biserica Sfânta Maria în Dacula, GA — acces complet la sală, cu mese, lenjerii, sistem audio și ring de dans pentru până la 250 de invitați."
       },
       "corporate": {
         "name": "Închiriere locație pentru evenimente corporate",
-        "description": "Închiriere locație pentru evenimente corporate și întâlniri de echipă la Fellowship Event Hall în Dacula, GA — program flexibil, parcare la fața locului, bucătărie de pregătire și Wi-Fi."
+        "description": "Închiriere locație pentru evenimente corporate și întâlniri de echipă la Biserica Sfânta Maria în Dacula, GA — program flexibil, parcare la fața locului, bucătărie de pregătire și Wi-Fi."
       },
       "birthday": {
         "name": "Închiriere locație pentru aniversări și petreceri private",
-        "description": "Închiriere locație pentru petreceri de aniversare și sărbători private la Fellowship Event Hall în Dacula, GA — de la întâlniri intime până la evenimente mari, cu mese, scaune, lenjerii și coordonator la fața locului incluse."
+        "description": "Închiriere locație pentru petreceri de aniversare și sărbători private la Biserica Sfânta Maria în Dacula, GA — de la întâlniri intime până la evenimente mari, cu mese, scaune, lenjerii și coordonator la fața locului incluse."
       }
     }
   }
